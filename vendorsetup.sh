@@ -1,10 +1,16 @@
 # Oppo 2013
 add_lunch_combo pac_find5-userdebug
 # Xperia 2013
+##Board: Fusion3
 add_lunch_combo pac_yuga-userdebug
 add_lunch_combo pac_odin-userdebug
+# Xperia 2012
+##Board: Blue
+add_lunch_combo pac_mint-userdebug
+add_lunch_combo pac_hayabusa-userdebug
+add_lunch_combo pac_tsubasa-userdebug
 # Xperia 2011
-####Mogami####
+##Board: Mogami
 add_lunch_combo pac_anzu-userdebug
 add_lunch_combo pac_coconut-userdebug
 add_lunch_combo pac_haida-userdebug
@@ -14,7 +20,7 @@ add_lunch_combo pac_mango-userdebug
 add_lunch_combo pac_satsuma-userdebug
 add_lunch_combo pac_smultron-userdebug
 add_lunch_combo pac_urushi-userdebug
-####Zeus####
+##Board: Zeus
 add_lunch_combo pac_zeus-userdebug
 # Samsung 2011
 add_lunch_combo pac_captivatemtd-userdebug
@@ -32,6 +38,8 @@ add_lunch_combo pac_p5100-userdebug
 add_lunch_combo pac_p5110-userdebug
 add_lunch_combo pac_p3100-userdebug
 add_lunch_combo pac_p3110-userdebug
+# Samsung 2013
+add_lunch_combo pac_jfltecan-userdebug
 # Nexus Devices
 add_lunch_combo pac_toro-userdebug
 add_lunch_combo pac_mako-userdebug
@@ -40,6 +48,7 @@ add_lunch_combo pac_manta-userdebug
 add_lunch_combo pac_crespo-userdebug
 add_lunch_combo pac_grouper-userdebug
 add_lunch_combo pac_tilapia-userdebug
+add_lunch_combo pac_toroplus-userdebug
 # HTC Rezound
 add_lunch_combo pac_vigor-userdebug
 # HTC Shooter
@@ -51,6 +60,7 @@ add_lunch_combo pac_ace-userdebug
 add_lunch_combo pac_saga-userdebug
 add_lunch_combo pac_vivo-userdebug
 # HTC 2013
+add_lunch_combo pac_fireball-userdebug
 add_lunch_combo pac_jewel-userdebug
 add_lunch_combo pac_evita-userdebug
 add_lunch_combo pac_ville-userdebug
@@ -96,3 +106,4 @@ add_lunch_combo pac_umts_spyder-userdebug
 add_lunch_combo pac_solana-userdebug
 add_lunch_combo pac_vanquishgsm-userdebug
 add_lunch_combo pac_dlxj-userdebug
+add_lunch_combo pac_scorpionmini-userdebug

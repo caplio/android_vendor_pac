@@ -10,9 +10,9 @@ PRODUCT_COPY_FILES += \
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
-    vendor/pa/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
-    vendor/pa/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions \
-    vendor/pa/prebuilt/common/bin/50-backupScript.sh:system/addon.d/50-backupScript.sh
+    vendor/pac/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
+    vendor/pac/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions \
+    vendor/pac/prebuilt/common/bin/50-backupScript.sh:system/addon.d/50-backupScript.sh
 
 # T-Mobile theme engine
 include vendor/pa/config/themes_common.mk
@@ -27,13 +27,18 @@ PRODUCT_PACKAGES += \
 # PAC Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/pac/common
 
+# Copy over the changelog to the device
+PRODUCT_COPY_FILES += \
+    vendor/pac/CHANGELOG.mkdn:system/etc/PAC-CHANGELOG.txt \
+    vendor/pac/CONTRIBUTORS.mkdn:system/etc/PAC-CONTRIBUTORS.txt
+
 ### AOKP ###
 # AOKP Packages
 PRODUCT_PACKAGES += \
     PerformanceControl \
     ROMControl \
-    SwagPapers
-
+    SwagPapers \
+    PermissionsManager  
 # AOKP Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/aokp/common
 
